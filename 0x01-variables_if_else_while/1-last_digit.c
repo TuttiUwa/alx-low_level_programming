@@ -3,10 +3,11 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - A program that gets the last digit of a number
  * Description - 'get the last digit of a number'
  * Return : Always 0
  */
+
 int main(void)
 {
 	int n;

@@ -3,12 +3,14 @@
 #include <time.h>
 
 /**
- * main - Entry
+ * main - Entry point
+ * Description - 'get the last digit of a number'
  * Return : Always 0
  */
 int main(void)
 {
 	int n;
+	int a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

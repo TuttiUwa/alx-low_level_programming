@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - A program that gets the last digit of a number
  * Description - 'get the last digit of a number'
- * Return : Always 0
+ * Return : 0 (success)
  */
-
 int main(void)
 {
 	int n;
@@ -24,12 +22,11 @@ int main(void)
 
 	else if (a == 0)
 	{
-		printf("Last digit of %d is %d and is greater than 0\n", n, a);
+		printf("Last digit of %d is %d and is 0\n", n, a);
 	}
 	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
 	}
-
 	return (0);
 }

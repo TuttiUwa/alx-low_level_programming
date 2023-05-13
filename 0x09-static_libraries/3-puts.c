@@ -1,9 +1,9 @@
+#include<stdio.h>
 #include "main.h"
 void _puts(char *s)
 {
 	puts(s);
 }
-#include <stdio.h>
 /**
  * main - Entry point
  *

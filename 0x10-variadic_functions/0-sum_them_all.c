@@ -9,7 +9,7 @@
  * Return: if n == 0 - 0.
  * 	Otherwise - the sume of all parameters.
  */
-int sum_them_all(const unsigned int n , ...)
+int sum_them_all(const unsigned int n ,...)
 {
 	va_list ap;
 	unsigned int i, sum = 0;
